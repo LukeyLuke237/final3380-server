@@ -5,7 +5,7 @@ import router from "./routes/arts.js";
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const URL = 'mongodb://localhost:27017/ArtList';
+const URL = 'mongodb+srv://temp:123@cluster0.kmqeywc.mongodb.net/';
 
 app.use(cors());
 app.use(express.json());
